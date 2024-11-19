@@ -1,0 +1,21 @@
+.CardTag {
+  text-shadow: 1px 1px 1px rgb(28 25 44 / 17%);
+  @apply text-white relative pl-2 pr-[9px] pb-[5px] pt-[3px] z-0 before:z-[-1] font-normal leading-[10px] tracking-[0.4px];
+  @apply before:absolute before:h-full before:w-full before:transform before:right-[2px] before:bottom-[1px];
+  a {
+    @apply hover:text-black transition duration-500 ease-in-out py-2 pr-1;
+  }
+
+  &.green {
+    @apply before:bg-gameZoneGreen;
+    @apply before:skew-x-[20deg];
+  }
+  &.yellow {
+    @apply before:bg-amber-400;
+    @apply before:skew-x-[20deg];
+  }
+  &.orange {
+    @apply before:bg-orange-600;
+    @apply before:skew-x-[20deg];
+  }
+}

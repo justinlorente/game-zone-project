@@ -1,0 +1,19 @@
+.Action {
+  @apply w-full h-full;
+  .title {
+    @apply text-3xl md:text-4xl pb-4 text-purple font-roboto font-bold;
+  }
+  .text-container {
+    @apply absolute font-roboto px-3 md:px-10 top-10 bottom-0 left-9;
+  }
+
+  .link-read-more-animation {
+    @apply text-[11px] tracking-[1px] font-bold font-roboto;
+    @apply before:content-['---------------'] before:translate-x-9 before:absolute before:opacity-0 before:tracking-[-1px] before:duration-500 ease-in-out before:leading-7;
+    @apply after:content-['---------------'] after:translate-x-2 after:absolute after:tracking-[-1.5px] after:leading-7;
+  }
+  .link-read-more-animation:hover {
+    @apply before:opacity-100 before:translate-x-20 before:duration-300;
+    @apply after:opacity-0 after:duration-700;
+  }
+}

@@ -1,0 +1,12 @@
+.Shortcodes {
+  @apply flex flex-col px-[16%] py-6 h-full w-full sm:px-[113px] sm:py-10 md:flex-row md:px-[7%] md:py-11 lg:px-[8%] xl:px-[9.3%] xl:py-14 2xl:px-[19%];
+  .counters-container {
+    @apply w-full flex flex-col md:flex-row py-10 justify-center items-center;
+  }
+  .testimonial-text {
+    @apply text-2xl md:text-4xl font-bold text-purple font-roboto w-full flex flex-col md:flex-row justify-start items-start pt-10 md:pt-16 pb-7 md:pb-3 h-16;
+  }
+  .two-columns-container {
+    @apply w-full flex flex-col md:flex-row;
+  }
+}

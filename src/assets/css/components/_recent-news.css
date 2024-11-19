@@ -1,0 +1,104 @@
+.Recent-news {
+  @apply font-roboto;
+  &-title {
+    @apply pb-5 text-purple text-[2rem] tracking-[0.019rem] font-bold sm:text-[33px] sm:tracking-[-0.3px] md:tracking-[-0.7px] md:pb-5 md:text-[31px] xl:tracking-[-0.5px] xl:text-[35px] xl:pb-7 2xl:text-[40px];
+  }
+
+  .img-full {
+    @apply duration-500 ease-in-out h-[25rem] md:h-[460px] xl:h-[600px] lg:h-[550px] 2xl:h-[658px] md:w-[68%] lg:w-[67%] w-full rounded-md overflow-hidden relative cursor-pointer opacity-95 hover:opacity-100;
+    &:hover {
+      .iconHover {
+        .icon-link {
+          @apply opacity-100;
+        }
+      }
+    }
+    &-title {
+      @apply font-bold tracking-normal leading-[1.75rem] py-5 text-white text-[1.75rem] sm:text-[27px] sm:tracking-[0.6px] sm:pr-5 sm:pb-4 sm:pt-6 md:pb-5 md:leading-[1.1em] xl:pr-2 xl:text-[29px] xl:pb-4 2xl:text-[35px] 2xl:tracking-[0.1px];
+    }
+
+    /*classes change post info component*/
+    .recent-news {
+      @apply flex flex-row gap-2 font-semibold pb-1;
+      .Post-info {
+        &-date {
+          &-text {
+            @apply transition duration-500 ease-in-out hover:text-green-500 pr-1 cursor-pointer text-[0.688rem] leading-[1.125rem] md:pr-2 xl:leading-[21px] xl:pr-3;
+          }
+        }
+        &-comments {
+          @apply flex flex-row font-medium gap-x-1 hover:text-green-500 transition duration-500 ease-in-out md:pr-2 xl:pr-3 xl:gap-x-1;
+          &-icon {
+            @apply text-[0.938rem] pr-[0.125rem] sm:text-[15px] md:pr-0 xl:text-[14px] xl:leading-[20px] xl:pr-0;
+          }
+          &-text {
+            @apply text-[0.75rem] sm:pr-[2px] md:pr-0 xl:text-[12px] xl:pr-0;
+          }
+        }
+        &-likes {
+          @apply flex flex-row font-medium gap-x-1 hover:text-green-500 transition duration-500 ease-in-out xl:gap-x-1;
+          &-icon {
+            @apply text-[17px] pr-1 sm:text-[15px] sm:pr-[2px] md:pr-0 xl:pr-[1px] xl:text-[15px] xl:leading-[18px];
+          }
+          &-text {
+            @apply text-[12px] xl:text-[12px];
+          }
+        }
+      }
+    }
+  }
+
+  .iconHover {
+    @apply absolute;
+    top: calc(50% - 22px);
+    left: calc(50% - 15px);
+  }
+
+  .is-video {
+    .iconHover {
+      @apply absolute;
+      top: calc(50% - 26px);
+      left: calc(50% - 26px);
+    }
+  }
+
+  .Card {
+    /*classes change post info component*/
+    .recent-news {
+      @apply flex flex-row gap-2 font-semibold xl:gap-2;
+      .Post-info {
+        &-date {
+          @apply flex flex-row;
+          &-text {
+            @apply transition duration-500 ease-in-out hover:text-green-500 pr-1 cursor-pointer text-[11px] leading-[18px] md:pr-0 xl:leading-[21px] xl:pr-0;
+          }
+        }
+        &-comments {
+          @apply flex flex-row font-medium gap-x-1 hover:text-green-500 transition duration-500 ease-in-out md:pr-2 xl:pr-1 xl:gap-x-1;
+          &-icon {
+            @apply text-[11px] pr-[2px] sm:text-[15px] md:pr-0 xl:text-[15px] xl:leading-[22px] xl:pr-0;
+          }
+          &-text {
+            @apply text-[12px] sm:pr-[2px] md:pr-0 xl:text-[12px] xl:pr-0;
+          }
+        }
+        &-likes {
+          @apply flex flex-row font-medium gap-x-1 hover:text-green-500 transition duration-500 ease-in-out xl:gap-x-1;
+          &-icon {
+            @apply text-[17px] pr-1 sm:text-[15px] sm:pr-[2px] md:pr-0 xl:pr-[1px] xl:text-[16px] xl:leading-[18px];
+          }
+          &-text {
+            @apply text-[12px] xl:text-[12px];
+          }
+        }
+      }
+    }
+    &:hover {
+      .iconHover {
+        .icon-link {
+          @apply opacity-100;
+        }
+      }
+    }
+  }
+}

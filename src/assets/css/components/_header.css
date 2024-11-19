@@ -1,0 +1,48 @@
+.Header {
+  @apply fixed w-full z-20 h-[3.338rem] md:h-[4.438rem] bg-white;
+  .icons-container {
+    @apply relative flex flex-row justify-end w-[50%] md:w-[25%] xl:w-[16%];
+    .cart-amount {
+      @apply absolute bg-blue-dark text-[11px] text-white text-center h-4 w-4 left-[50%] top-5 md:left-[10%] md:top-8 rounded-lg;
+    }
+    .mail-button {
+      @apply px-2 flex flex-row items-center relative h-full w-full before:absolute before:-z-10 before:left-0 before:bg-white-smoke before:h-full before:w-[800%];
+    }
+  }
+}
+
+.MobileMenu {
+  @apply absolute bg-purple transition-all w-screen 2xl:hidden xl:hidden lg:hidden md:hidden top-0 z-30 translate-y-0 overflow-hidden duration-500 ease-in-out;
+  &-close-button {
+    @apply flex justify-end p-[12px] mr-[13px] mt-[11px];
+  }
+  &-logo {
+    @apply mx-auto h-[23px] mb-[5px];
+  }
+  &-container {
+    @apply uppercase text-white pt-5 text-[18px]  px-[48px] font-roboto;
+  }
+  &-items {
+    @apply flex flex-row  font-roboto items-center justify-between h-[29px]  hover:text-green-custom hover:transition ease-in-out duration-500;
+  }
+  &-search-icon {
+    @apply flex justify-end relative text-white text-[11px] right-[53px] bottom-[26px];
+  }
+  &-input {
+    @apply block mx-auto text-white text-[11px] w-[73%] p-3 mt-10 bg-transparent font-roboto border-solid border-b-[1px] outline-none;
+  }
+  &-social-media {
+    @apply text-[12px] flex justify-center mt-4;
+  }
+}
+
+.Green-skew {
+  @apply h-full flex flex-row w-[40%] md:w-[20%] xl:w-[14%] relative before:transform before:bg-green-custom before:absolute before:top-0 before:-right-6 before:h-full before:w-full;
+  .link-container {
+    @apply flex flex-row justify-start items-center relative h-full w-full before:absolute before:-z-10 before:right-0 before:bg-green-custom before:h-full before:w-[800%];
+  }
+}
+
+.White-skew {
+  @apply hidden md:block relative before:bg-white-smoke before:absolute before:-left-4 before:bottom-0 before:h-full before:w-9;
+}

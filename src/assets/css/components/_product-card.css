@@ -1,0 +1,34 @@
+.Product-card {
+  @apply md:mr-5 relative w-[90%] md:w-[30%] xl:w-[45%];
+  .select {
+    @apply invisible opacity-0 absolute transition-all ease-in-out duration-200 flex justify-center top-[67%] xl:top-[64%] lg:top-[53%] md:top-[46%];
+    @apply bg-transparent text-green-custom mx-auto rounded-b-lg h-[45px] w-full font-semibold tracking-wider  hover:bg-green-custom hover:text-white;
+    .options {
+      @apply text-xs pt-4 md:text-[10px] md:tracking-wider;
+    }
+  }
+  .prices {
+    @apply text-gray-500 font-medium text-[13px] lg:text-sm xl:text-base;
+  }
+  .image {
+    @apply w-full h-full 2xl:h-[279px] xl:h-[279px] md:h-[150px] lg:h-[211px] rounded-lg;
+  }
+}
+
+.Product-card:hover {
+  @apply drop-shadow-xl;
+  .select {
+    @apply visible opacity-100 ease-in-out duration-200 drop-shadow-md;
+  }
+  .prices {
+    @apply text-orange-custom ease-in-out duration-200;
+  }
+}
+
+.Product-container {
+  @apply flex flex-col items-center 2xl:flex-row md:flex-row justify-center;
+}
+
+.Game-store-section {
+  @apply bg-white-smoke pb-14;
+}

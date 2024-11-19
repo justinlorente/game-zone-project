@@ -1,0 +1,15 @@
+.General-info {
+  @apply mt-5 mx-2 lg:m-2;
+  .title {
+    @apply font-roboto text-4xl font-bold text-purple;
+  }
+  .info-container {
+    @apply font-roboto text-gray-500 text-xs lg:text-base 2xl:text-sm pt-5 lg:w-[80%]  leading-6 lg:leading-7 tracking-wide;
+    .data {
+      @apply block font-bold text-black pt-2 lg:pt-3;
+    }
+    .data-hover {
+      @apply cursor-pointer hover:text-green-custom hover:ease-in-out hover:duration-200;
+    }
+  }
+}

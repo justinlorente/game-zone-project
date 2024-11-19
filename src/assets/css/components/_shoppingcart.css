@@ -1,0 +1,13 @@
+.Shoppingcart {
+  @apply absolute flex justify-center items-center bg-blue-dark font-roboto z-10;
+  @apply 2xl:w-[271px] 2xl:h-[201px] 2xl:left-[76%] 2xl:top-[95%] top-0 w-screen h-screen lg:w-[271px] lg:h-[201px] lg:left-[60%] lg:top-[95%] sm:w-[223px] sm:h-[180px] sm:left-[56%] sm:top-[95%];
+  .Close-btn {
+    @apply absolute top-[6%] right-[7%] text-white hover:text-orange-custom ease-in-out duration-300;
+  }
+}
+.Show {
+  @apply visible opacity-100 transition-all ease-in duration-300;
+}
+.Hide {
+  @apply invisible opacity-0 transition-all ease-out duration-300;
+}

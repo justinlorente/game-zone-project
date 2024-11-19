@@ -1,0 +1,20 @@
+.AudioPlayer {
+  @apply bg-purple rounded-md h-[74%] w-full  py-5;
+
+  .progressBar {
+    @apply appearance-none relative w-full lg:w-44 h-1 p-0 bg-gray-400 focus:outline-none focus:ring-0 focus:shadow-none cursor-pointer;
+    @apply before:bg-white before:h-1 before:absolute before:top-0 before:left-0 before:z-[2];
+  }
+
+  .volume-bar {
+    @apply appearance-none relative w-9 h-1 p-0 bg-gray-400 focus:outline-none focus:ring-0 focus:shadow-none cursor-pointer;
+    @apply before:bg-white before:h-1 before:absolute before:top-0 before:left-0 before:z-[2];
+  }
+}
+.progressBar::-moz-range-progress {
+  background-color: white;
+}
+.progressBar::-moz-range-thumb {
+  background-color: transparent;
+  border: none;
+}

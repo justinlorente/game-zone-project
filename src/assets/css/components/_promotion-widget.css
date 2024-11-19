@@ -1,0 +1,3 @@
+.Promotion-widget {
+  @apply w-full h-full flex-col font-roboto text-white pt-[3.37rem] md:flex md:pt-[4.37rem] lg:flex-row xl:pt-[4.54rem];
+}

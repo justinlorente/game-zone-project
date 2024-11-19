@@ -1,0 +1,68 @@
+.CardFullPicture {
+  @apply flex items-end bg-no-repeat bg-cover bg-center border-t border-gray-600 w-full h-full sm:border-0;
+
+  .card-full {
+    @apply pb-[65px] px-[33px] md:px-[32px] lg:pb-[56px] xl:px-[35px] xl:pb-[59px] 2xl:px-[75px];
+  }
+
+  .card-mini {
+    @apply pb-[36px] pl-[22px] pr-[5px] md:pb-[36px] lg:pr-[15px] lg:pb-[32px] xl:pr-[8px] xl:pl-[24px] xl:pb-[32px] 2xl:pr-[25px] 2xl:p-[27px] 2xl:pb-[30px];
+  }
+
+  &-title {
+    @apply text-white font-bold cursor-pointer;
+    &.size-full {
+      @apply text-[32px] tracking-[0.5px] pb-[17px] pt-[24px] leading-[2.1rem] sm:text-[33px] sm:pb-[19px] sm:pt-[25px] sm:tracking-[-0.3px];
+      @apply lg:leading-[1.1em] lg:text-[34px] lg:tracking-[-0.7px] lg:pb-[22px] lg:pt-[23px] xl:pb-[18px] xl:pt-[27px] xl:text-[35px] xl:tracking-normal 2xl:text-[40px] 2xl:pl-0 2xl:pt-[24px] 2xl:pb-[16px] 2xl:tracking-normal;
+    }
+    &.size-mini {
+      @apply text-[22px] tracking-[0.1px] pb-[19px] pt-[25px] leading-[1.2rem] sm:pb-[20px] sm:pt-[24px] lg:leading-[22px] lg:tracking-[0.1px] lg:pb-4 lg:text-[21px];
+      @apply xl:tracking-normal xl:text-[24px] xl:pt-[23px] xl:pb-[18px] xl:leading-[1.4rem] 2xl:text-[36px] 2xl:leading-[2.1rem];
+    }
+  }
+
+  .iconHover {
+    @apply absolute left-[37px] top-[20px] sm:left-[41px] md:left-[25px] md:top-[18px] lg:top-[8%] lg:left-[28px] xl:left-[5%] 2xl:left-[6%] 2xl:top-[8%];
+  }
+
+  &.bg-shadow {
+    @apply before:bg-[rgba(28,25,44,0.3)] before:h-full before:w-full before:absolute before:z-[0] before:inset-0;
+  }
+  &-hover {
+    .iconHover {
+      .icon-video {
+        .border {
+          @apply border-opacity-50;
+        }
+      }
+    }
+  }
+
+  &-post-info {
+    @apply flex gap-2 font-medium text-gray-300 xl:gap-4;
+    .date {
+      @apply flex gap-3;
+      &-text {
+        @apply transition duration-500 ease-in-out hover:text-green-500 cursor-pointer text-[13px] leading-[15px] pr-[4px] xl:text-[11px];
+      }
+    }
+    .comments {
+      @apply flex flex-row hover:text-green-500 transition duration-500 ease-in-out font-medium gap-x-1 pr-[3px] md:pr-[11px] xl:pr-[5px] xl:gap-x-1;
+      &-icon {
+        @apply text-[15px] md:text-[16px] xl:text-[15px] 2xl:text-[17px];
+      }
+      &-text {
+        @apply text-[11px] xl:text-[11px];
+      }
+    }
+    .likes {
+      @apply flex flex-row gap-x-1 hover:text-green-500 transition duration-500 ease-in-out font-medium xl:gap-x-1;
+      &-icon {
+        @apply text-[15px] md:text-[16px] xl:text-[15px] 2xl:text-[17px];
+      }
+      &-text {
+        @apply text-[11px] xl:text-[11px];
+      }
+    }
+  }
+}

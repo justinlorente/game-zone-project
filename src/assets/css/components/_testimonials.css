@@ -1,0 +1,48 @@
+.Testimonials-container {
+  @apply bg-gray-100 flex flex-row justify-center items-center h-[330px] md:h-[450px];
+  .testimonials {
+    @apply w-[70%] md:w-[90%] xl:w-[70%] relative h-full overflow-hidden md:py-10 text-xs md:text-sm lg:text-xl font-roboto font-light italic text-center;
+    .quote {
+      @apply absolute top-[6%] md:top-[10%] text-5xl md:text-6xl text-green-custom font-light;
+    }
+    .slick-dots {
+      @apply absolute top-[45%] md:top-[35%] xl:top-[40%];
+      li {
+        @apply h-7 w-7 md:h-14 md:w-14 ease-in-out delay-200 duration-300;
+      }
+      .slick-active {
+        @apply h-10 w-10 md:h-20 md:w-20 ease-in-out delay-200 duration-300;
+      }
+    }
+    .slider-container {
+      @apply cursor-grab pt-10 pb-5 md:w-[80%] xl:w-[65%] container mx-auto;
+      .custom-arrows {
+        @apply absolute flex justify-center items-center top-[10%] z-10;
+      }
+    }
+    .info {
+      @apply not-italic pt-28 md:pt-40;
+      .name {
+        @apply text-sm text-purple font-bold font-roboto tracking-normal;
+      }
+      .position {
+        @apply text-xs text-gray-400 font-light  font-roboto tracking-normal uppercase;
+      }
+    }
+    .custom-arrow-left {
+      @apply transition translate-x-[-17rem] top-0 bottom-0 left-[-15%];
+    }
+    .custom-arrow-right {
+      @apply transition translate-x-[17rem] top-0 bottom-0  right-[-15%];
+    }
+  }
+
+  .Testimonials:hover {
+    .custom-arrows.next {
+      @apply transform translate-x-0 delay-300 duration-300 ease-in-out;
+    }
+    .custom-arrows.prev {
+      @apply transform translate-x-0 delay-300 duration-300 ease-in-out;
+    }
+  }
+}

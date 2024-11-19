@@ -1,0 +1,32 @@
+.Searchbar {
+  @apply bg-blue-dark-transparent h-screen w-screen z-40 top-0 flex items-center absolute justify-center;
+  &.opened {
+    .showTransition {
+      @apply scale-x-100 transition-all origin-right ease-in-out duration-300;
+    }
+    .Input-transition-show {
+      @apply h-10;
+      @apply h-12 lg:h-16;
+    }
+  }
+  &.closed {
+    .hideTransition {
+      @apply scale-x-0;
+    }
+  }
+  &-input {
+    @apply text-white text-xl bg-transparent font-roboto block outline-none px-2 transition-all ease-out h-0 grow lg:text-2xl xl:text-[1.7rem];
+    @apply font-roboto;
+  }
+  &-label {
+    @apply text-white text-xl font-roboto absolute pointer-events-none lg:text-2xl lg:top-[10%] xl:text-[1.7rem];
+  }
+}
+
+.Search-btn {
+  @apply cursor-pointer text-white text-xl hover:text-green-custom ease-in-out duration-300 lg:text-2xl xl:text-[1.7rem];
+}
+
+.Close-btn {
+  @apply absolute right-0 top-[10%] text-white text-xl cursor-pointer hover:text-green-custom ease-in-out;
+}

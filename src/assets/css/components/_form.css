@@ -1,0 +1,31 @@
+.Form {
+  @apply m-3;
+  .personal-info {
+    @apply flex flex-col md:flex-row md:grid-cols-2;
+  }
+  .input {
+    @apply bg-transparent font-roboto text-[12px] pb-3 border-b-[1px] border-gray-300 focus:border-black  focus:placeholder:text-black focus:transition-all focus:ease-in-out focus:duration-500 outline-none border-solid w-full;
+  }
+  .required-alert {
+    @apply text-sm inline-block mt-3 text-red-500 font-roboto;
+  }
+  .button {
+    @apply h-[54px] w-full bg-green-custom flex hover:bg-green-500 duration-300 rounded-md;
+    &-text {
+      @apply h-full w-full text-center pt-4 uppercase text-white font-bold font-roboto text-[11px] md:text-[12px] lg:text-[13px] tracking-[0.4px] leading-6;
+    }
+  }
+  .second-alert {
+    @apply border-2 mt-16;
+  }
+  .subject {
+    @apply flex flex-row mt-4;
+  }
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-box-shadow: 0 0 0 30px white inset !important;
+}

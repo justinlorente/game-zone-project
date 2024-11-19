@@ -1,0 +1,67 @@
+.Latest-news {
+  @apply font-roboto pt-3 sm:pt-0 lg:px-4 xl:px-0 xl:pt-1 2xl:pt-2;
+  &-title {
+    @apply pb-5 text-purple tracking-[0.3px] font-bold font-roboto text-[32px] sm:tracking-[-0.2px] sm:text-[33px] md:text-[34px] md:pb-5 md:font-bold md:tracking-[-0.7px] xl:tracking-[-0.5px] xl:pb-5 xl:text-[35px] 2xl:text-[40px];
+  }
+
+  .btn-footer {
+    text-shadow: 1px 1px 3px rgb(0 0 0 / 20%), 2px 4px 7px rgb(73 64 125 / 20%);
+  }
+
+  .Card {
+    @apply gap-3 pb-7 flex flex-col sm:flex sm:flex-row sm:pt-3 sm:gap-6 md:pb-5 lg:pt-1 xl:pb-6 xl:gap-x-3 duration-500 ease-in-out;
+    &:hover {
+      .iconHover {
+        .icon-link {
+          @apply opacity-100;
+        }
+      }
+    }
+    .iconHover {
+      @apply absolute;
+      top: calc(50% - 22px);
+      left: calc(50% - 15px);
+    }
+
+    &-img {
+      @apply w-full sm:w-[37%] xl:w-[35.5%];
+    }
+    &-info {
+      @apply pt-5 w-full sm:pt-0 sm:w-[63%] lg:pt-5 xl:pt-[1.73rem] xl:pl-3 xl:w-[64.5%] flex flex-col;
+      &-title {
+        @apply hover:text-green-500 duration-500 ease-in-out text-[21px] leading-[20px] sm:leading-[21px] xl:text-[22.75px] xl:leading-[23px] 2xl:text-[26px] 2xl:leading-[25px];
+      }
+      &-text {
+        @apply text-[12px] leading-[18px] tracking-[0.3px] pt-2 font-[400] sm:tracking-[0.15px] sm:leading-[19px] md:pt-3 xl:tracking-[0.1px] xl:leading-[22px] xl:text-[13.12px] xl:pt-3 pr-0 xl:pr-7 2xl:text-[15px] text-gray-500;
+      }
+    }
+    /* Component PostInfo */
+    .Post-info {
+      @apply flex flex-row pt-3 gap-2 font-[500] sm:pt-1 xl:gap-2 xl:pt-1 2xl:pt-2;
+      &-date {
+        @apply flex gap-3;
+        &-text {
+          @apply transition duration-500 ease-in-out hover:text-green-500 pr-1 cursor-pointer text-[11px] leading-[18px] sm:pr-2 xl:leading-[21px];
+        }
+      }
+      &-comments {
+        @apply flex flex-row font-medium gap-x-1 hover:text-green-500 transition duration-500 ease-in-out md:pr-2 xl:pr-3 xl:gap-x-1;
+        &-icon {
+          @apply text-[17px] pr-[2px] sm:text-[15px] sm:leading-[25px] xl:text-[15px] xl:leading-[25px];
+        }
+        &-text {
+          @apply text-[13px] sm:text-[11px] sm:leading-[25px] xl:text-[11px] xl:leading-[22px] xl:pr-0;
+        }
+      }
+      &-likes {
+        @apply flex flex-row font-medium gap-x-1 hover:text-green-500 transition duration-500 ease-in-out xl:gap-x-1;
+        &-icon {
+          @apply text-[17px] pr-1 sm:text-[17px] sm:pr-[2px] sm:leading-[25px] xl:pr-[1px] xl:text-[16px] xl:leading-[26px];
+        }
+        &-text {
+          @apply text-[11px] sm:leading-[25px] xl:text-[11px] xl:leading-[23px];
+        }
+      }
+    }
+  }
+}

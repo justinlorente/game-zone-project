@@ -1,0 +1,11 @@
+.Card {
+  @apply font-roboto font-bold;
+
+  &-title {
+    @apply leading-[1.3em] xl:leading-[1.1em] cursor-pointer py-2 md:py-4 duration-500 ease-in-out hover:text-green-500;
+  }
+
+  .title-texture {
+    @apply text-[0.984rem] tracking-[-0.35px];
+  }
+}

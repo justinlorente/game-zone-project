@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "platform" : ["pc","xbox","playstation"],
+        "title": "The Witcher 3: Blood & Wine — Best Endings",
+        "date": "12.12.2017",
+        "comments": 3,
+        "likes": 74
+    },
+    {
+        "id": 2,
+        "platform" : ["playstation"],
+        "title": "Sign up for Giveaway of Uncharted 4",
+        "date": "09.10.2017",
+        "comments": 0,
+        "likes": 74
+    },
+    {
+        "id": 3,
+        "platform" : ["playstation"],
+        "title": "Early Black Friday deals at Best Buy, Xbox One X",
+        "date": "09.06.2017",
+        "comments": 0,
+        "likes": 50
+    },
+    {
+        "id": 4,
+        "platform" : ["playstation"],
+        "title": "Crytek’s Warface is trying to get in on the battle",
+        "date": "09.02.2017",
+        "comments": 0,
+        "likes": 8
+    }
+]

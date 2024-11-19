@@ -1,0 +1,10 @@
+.Counters {
+  @apply flex flex-col w-full;
+
+  .circle-counter {
+    @apply h-44 w-44 mb-10 ease-in-out duration-200;
+  }
+  .numbers-counter {
+    @apply m-5 flex flex-row justify-center font-roboto text-center w-[10%];
+  }
+}

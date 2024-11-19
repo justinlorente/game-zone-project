@@ -1,0 +1,30 @@
+.Content-panel {
+  &-scroll {
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+  }
+}
+
+.Right-tabs {
+  .tab {
+    @apply flex relative justify-center items-center bg-green-custom h-[40px] w-[55px] sm:h-[60px] sm:w-[75px] lg:h-[60px] lg:w-[75px] xl:w-[76px] align-baseline duration-300 ease-in-out;
+    &-after {
+      @apply after:absolute after:bg-slate-800 after:h-[60px] after:right-full hover:after:opacity-100 after:duration-500;
+      @apply after:tracking-[1px] after:opacity-0 ease-in-out after:pointer-events-none after:text-white after:uppercase after:text-[11px] after:font-semibold after:flex after:justify-center after:items-center after:p-5 after:whitespace-nowrap;
+    }
+  }
+}
+
+.PanelRight {
+  &-showBefore {
+    @apply before:fixed before:opacity-100 before:z-[-1] before:top-0 before:left-0 before:w-full before:h-full before:bg-[rgba(255,255,255,0.75)] before:duration-300;
+  }
+}

@@ -1,0 +1,16 @@
+.ImageWithTag {
+  &.hover-opacity {
+    @apply opacity-95 hover:opacity-100 duration-300 ease-in-out;
+  }
+  &-image {
+    &:hover {
+      .iconHover {
+        .icon-video {
+          .border {
+            @apply border-opacity-50;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.Progress-bars {
+  @apply w-full md:w-[50%] font-roboto;
+
+  .bar {
+    @apply appearance-none relative w-full h-1 p-0 mb-4 bg-gray-300 focus:outline-none focus:ring-0 focus:shadow-none;
+    @apply before:bg-green-custom before:h-1 before:absolute before:top-0 before:left-0 before:z-[2]  before:duration-700 before:delay-500 overflow-hidden;
+  }
+  .title {
+    @apply text-xs uppercase text-black tracking-wide font-bold;
+  }
+  .percent {
+    @apply text-xs text-gray-400;
+  }
+
+  .bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+  }
+}
+
+.display-bars {
+  .bar {
+    @apply before:-translate-x-0;
+  }
+}
+
+.hide-bars {
+  .bar {
+    @apply before:-translate-x-[100%];
+  }
+}

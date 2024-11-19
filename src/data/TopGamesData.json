@@ -1,0 +1,84 @@
+[
+  {
+    "title": "Playstation",
+    "content": [
+      {
+        "id": "ps-1",
+        "title": "The Witcher 3: Blood & Wine — Best Endings",
+        "date": "12.12.2017",
+        "img": "the-witcher-3.jpg",
+        "url": "/404",
+        "position": "1"
+      },
+      {
+        "id": "ps-2",
+        "title": "Sign up for Giveaway of Uncharted 4",
+        "date": "09.06.2017",
+        "img": "uncharted-4.jpg",
+        "url": "/404",
+        "position": "2"
+      },
+      {
+        "id": "ps-3",
+        "title": "Early Black Friday deals at Best Buy, Xbox One X",
+        "date": "09.10.2017",
+        "img": "xbox-one.jpg",
+        "url": "/404",
+        "position": "3"
+      },
+      {
+        "id": "ps-4",
+        "title": "Crytek’s Warface is trying to get in on the battle",
+        "date": "09.10.2017",
+        "img": "cryteks-warface.jpg",
+        "url": "/404",
+        "position": "4"
+      },
+      {
+        "id": "ps-5",
+        "title": "Early deals at Best Buy Black Friday Xbox Bundle",
+        "date": "08.24.2017",
+        "img": "early-deals.jpg",
+        "url": "/404",
+        "position": "5"
+      }
+    ]
+  },
+  {
+    "title": "x-box",
+    "content": [
+      {
+        "id": "xbox-1",
+        "title": "Top 10 Car Addons for GTA San Andreas",
+        "date": "12.08.2017",
+        "img": "xbox-one.jpg",
+        "url": "/404",
+        "position": "1"
+      },
+      {
+        "id": "xbox-2",
+        "title": "Uncharted 4: A Thiefs End- Best PS4 Game 2017",
+        "date": "12.04.2017",
+        "img": "uncharted-4.jpg",
+        "url": "/404",
+        "position": "2"
+      },
+      {
+        "id": "xbox-3",
+        "title": "Why Assassin’s Creed IV Was the Last Good Game from Ubisoft",
+        "date": "11.30.2017",
+        "img": "asassins-creed.jpg",
+        "url": "/404",
+        "position": "3"
+      },
+      {
+        "id": "xbox-4",
+        "title": "The Winner for Drama, Story and Graphic",
+        "date": "11.22.2017",
+        "img": "the-winner.jpg",
+        "url": "/404",
+        "position": "4"
+      }
+    ]
+  }
+]

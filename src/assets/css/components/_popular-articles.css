@@ -1,0 +1,42 @@
+.Popular-articles {
+  @apply lg:p-2;
+  .main-article {
+    @apply px-5 pt-5;
+    .image {
+      @apply relative cursor-pointer opacity-95 hover:opacity-100 ease-in-out duration-300;
+      &:hover {
+        .iconHover {
+          .icon-link {
+            @apply opacity-100;
+          }
+        }
+      }
+    }
+    .first-link {
+      @apply mx-4 relative before:w-3 before:h-[18px] before:bg-amber-400 before:-left-[29px] before:top-[6px] before:absolute;
+    }
+  }
+  .title {
+    @apply text-sm md:text-sm text-black cursor-pointer font-roboto font-semibold hover:text-green-custom ease-in-out duration-300;
+  }
+  .Post-info-date-text {
+    @apply text-xs;
+  }
+  .Post-info-comments-icon {
+    @apply text-xs md:text-sm;
+  }
+  .Post-info-comments-text {
+    @apply text-xs;
+  }
+  .Post-info-likes-text {
+    @apply text-xs;
+  }
+  .Post-info-likes-icon {
+    @apply text-xs md:text-sm;
+  }
+  .iconHover {
+    @apply absolute;
+    top: calc(50% - 22px);
+    left: calc(50% - 15px);
+  }
+}

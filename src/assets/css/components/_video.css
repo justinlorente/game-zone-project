@@ -1,0 +1,27 @@
+.Video {
+  @apply mb-10 overflow-hidden rounded-md;
+  .iconHover {
+    @apply translate-y-40 duration-500 delay-100 ease-in-out opacity-5;
+    .icon {
+      &-video {
+        .border {
+          @apply hover:bg-green-custom;
+        }
+      }
+    }
+  }
+  .image {
+    @apply h-full w-full relative before:ease-in-out before:duration-500;
+  }
+
+  .image:hover {
+    @apply before:absolute before:top-0 before:bottom-0 before:right-0 before:left-0 before:rounded-md  before:bg-[rgba(0,0,0,0.5)] before:transition-all before:ease-in-out  before:duration-500;
+  }
+}
+.Video {
+  .image:hover {
+    .iconHover {
+      @apply translate-y-0 duration-500 ease-in-out opacity-95 delay-100;
+    }
+  }
+}

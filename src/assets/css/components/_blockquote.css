@@ -1,0 +1,13 @@
+.Blockquote {
+  @apply px-2;
+  .text {
+    @apply text-gray-500 text-xs font-roboto leading-5 md:text-sm;
+  }
+  .quote {
+    @apply relative text-black text-base italic font-roboto px-6 py-6 lg:py-7 tracking-wide leading-5 md:text-[13px] md:pl-10 xl:pr-20  xl:text-sm;
+    @apply before:text-green-custom before:text-5xl before:font-light before:absolute before:content-['“'] before:md:left-3 before:left-0;
+    .cite {
+      @apply block font-semibold uppercase text-sm pt-1 md:text-xs tracking-wider;
+    }
+  }
+}

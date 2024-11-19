@@ -1,0 +1,27 @@
+.Post-info {
+  @apply flex gap-2 font-medium xl:gap-4;
+  &-date {
+    @apply flex gap-3;
+    &-text {
+      @apply transition duration-500 ease-in-out hover:text-green-500 pr-1 cursor-pointer text-[13px] leading-[18px] xl:leading-[21px];
+    }
+  }
+  &-comments {
+    @apply flex flex-row font-medium gap-x-1 hover:text-green-500 transition duration-500 ease-in-out md:pr-2 xl:pr-1 xl:gap-x-1;
+    &-icon {
+      @apply text-[17px] pr-[2px] sm:text-[19px] xl:text-[18px];
+    }
+    &-text {
+      @apply text-[13px] sm:pr-[2px] xl:text-[13px];
+    }
+  }
+  &-likes {
+    @apply flex flex-row font-medium gap-x-1 hover:text-green-500 transition duration-500 ease-in-out xl:gap-x-1;
+    &-icon {
+      @apply text-[17px] pr-1 sm:text-[19px] sm:pr-[2px] xl:pr-[1px] xl:text-[18px];
+    }
+    &-text {
+      @apply text-[13px] xl:text-[13px];
+    }
+  }
+}

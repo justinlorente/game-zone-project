@@ -1,0 +1,21 @@
+.Image-alignment {
+  @apply px-2;
+  .text {
+    @apply text-gray-500 text-xl font-roboto leading-[2.25rem] md:text-sm;
+  }
+  .title-image {
+    @apply absolute w-full bg-purple text-white text-center text-sm rounded-b normal-case tracking-wider translate-y-[-45px] font-roboto py-[12.5px] ease-in-out duration-300;
+  }
+  .image {
+    @apply w-full;
+  }
+  .image-container {
+    @apply relative overflow-hidden float-left inline-block mr-4;
+  }
+}
+
+.image-container:hover {
+  .title-image {
+    @apply visible ease-in-out duration-300 translate-y-0;
+  }
+}

@@ -1,0 +1,18 @@
+.Inputs-and-buttons {
+  @apply my-2;
+  .button {
+    @apply h-[54px] w-full bg-green-custom flex hover:bg-green-500 duration-300 rounded-md;
+    &-text {
+      @apply h-full w-full text-center pt-4 uppercase text-white font-bold font-roboto text-[11px] md:text-[12px] lg:text-[13px] tracking-[0.4px] leading-6;
+    }
+  }
+  .link-read-more-animation {
+    @apply text-[11px] tracking-[1px] font-bold font-roboto;
+    @apply before:content-['---------------'] before:translate-x-9 before:absolute before:opacity-0 before:tracking-[-1px] before:duration-500 ease-in-out before:leading-7;
+    @apply after:content-['---------------'] after:translate-x-2 after:absolute after:tracking-[-1.5px] after:leading-7;
+  }
+  .link-read-more-animation:hover {
+    @apply before:opacity-100 before:translate-x-20 before:duration-300;
+    @apply after:opacity-0 after:duration-700;
+  }
+}

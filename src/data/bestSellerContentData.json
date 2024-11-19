@@ -1,0 +1,89 @@
+[
+    {
+        "id": 1,
+        "category" : "BestsellersBusinessNews / Editorial",
+        "title": "Qwery -- Multi-Purpose Business WordPress Theme + RTL",
+        "previousPrice": 75,
+        "price": 59,
+        "img": "query.webp"
+    },
+    {
+        "id": 2,
+        "category" : "BestsellersBlog / MagazineNews / Editorial",
+        "title": "Kicker – Multipurpose Blog Magazine WordPress Theme",
+        "previousPrice": 75,
+        "price": 59,
+        "img": "Kicker.png"
+    },
+    {
+        "id": 3,
+        "category" : "BestsellersHealth & BeautyNews / Editorial",
+        "title": "Jacqueline – Spa & Massage Salon Theme",
+        "price": 75,
+        "img": "jacqueline.png"
+    },
+    {
+        "id": 4,
+        "category" : "BestsellersEntertainmentNews / Editorial",
+        "title": "FC United – Football, Soccer WordPress Sports Theme",
+        "price": 75,
+        "img": "fc-united.png"
+    },
+    {
+        "id": 5,
+        "category" : "Portfolio",
+        "title": "Helion – Personal Creative Portfolio WordPress Theme + Store",
+        "price": 59,
+        "img": "Helion.png"
+    },
+    {
+        "id": 6,
+        "category" : "News / Editorial",
+        "title": "Blabber | All-in-One Elementor Blog & News Magazine WordPress Theme + RTL",
+        "price": 59,
+        "img": "Blabber.png"
+    },
+    {
+        "id": 7,
+        "category" : "Directory & Listings",
+        "title": "Alliance – Intranet & Extranet WordPress Theme",
+        "price": 59,
+        "img": "Alliance-cover.jpg"
+    },
+    {
+        "id": 8,
+        "category" : "Health & Beauty",
+        "title": "Mystik – Astrology & Esoteric Horoscope WordPress Theme",
+        "price": 59,
+        "img": "Mystik.png"
+    },
+    {
+        "id": 9,
+        "category" : "Travel",
+        "title": "Briny – Scuba Diving School & Water Sports WordPress Theme",
+        "price": 69,
+        "img": "Briny.png"
+    },
+    {
+        "id": 10,
+        "category" : "Activism",
+        "title": "Impacto Patronus – Petitions & Social Activism WordPress Theme",
+        "price": 59,
+        "img": "Kicker.png"
+
+    },
+    {
+        "id": 11,
+        "category" : "Activism",
+        "title": "Impacto Patronus – Petitions & Social Activism WordPress Theme",
+        "price": 59,
+        "img": "Impacto_patronus.png"
+    },
+    {
+        "id": 12,
+        "category" : "Art",
+        "title": "Ozeum – Art Gallery and Museum WordPress Theme",
+        "price": 59,
+        "img": "ozeum_featured.jpg"
+    }
+]

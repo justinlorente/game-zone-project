@@ -1,0 +1,27 @@
+.Top-games {
+  .games-card {
+    @apply p-2 flex flex-row font-roboto;
+    .position {
+      @apply flex flex-row bg-green-custom right-[70%] top-[20%] text-xs cursor-default text-white h-8 w-8 absolute rounded-3xl justify-center items-center border-white border-[3px];
+    }
+    .title {
+      @apply text-sm lg:text-base font-semibold font-roboto hover:text-green-custom ease-in-out duration-300;
+    }
+    .date {
+      @apply text-[11px] text-gray-500 hover:text-black ease-in-out duration-300;
+    }
+  }
+
+  .tabs {
+    @apply bg-white w-full flex flex-row text-center font-roboto font-medium text-xs uppercase overflow-hidden;
+    .tab {
+      @apply py-3 w-full relative tracking-wider before:absolute transition-all delay-100 before:transition-all before:delay-100;
+    }
+    .active-tab {
+      @apply bg-white  before:bg-white before:bottom-0  before:-left-4 before:w-6 before:h-full hover:cursor-pointer;
+    }
+    .inactive-tab {
+      @apply bg-white-smoke hover:bg-white  hover:before:bg-white hover:cursor-pointer hover:text-black before:bg-white-smoke text-gray-500 before:bottom-0 before:-left-4 before:w-6 before:h-full;
+    }
+  }
+}

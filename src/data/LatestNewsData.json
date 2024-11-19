@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "platform": ["Comic Store"],
+    "title": "Tom Clancy’s the Division Server Problems Are Fixed",
+    "date": "07.18.2017",
+    "imgSrc": "Tom-clancys.jpg",
+    "url": "/",
+    "urlTag": "/test",
+    "colorTag": "yellow",
+    "comments": 0,
+    "likes": 12,
+    "text": "The release of Tom Clancy’s The Division was a disaster after game servers kept crashing..."
+  },
+  {
+    "id": 2,
+    "platform": ["Comic Store"],
+    "title": "E3 2017 — Top 10 Sports Games",
+    "date": "07.14.2017",
+    "imgSrc": "E3-2017.jpg",
+    "url": "/",
+    "urlTag": "/test",
+    "colorTag": "green",
+    "comments": 0,
+    "likes": 10,
+    "text": "Sports simulators have a small, but passionate audience. This E3 won’t disappoint them. We are... "
+  },
+  {
+    "id": 3,
+    "platform": ["Comic Store"],
+    "title": "Dishonored PC Release Scheduled on Summer 2018",
+    "date": "07.10.2017",
+    "imgSrc": "Dishonored-pc.jpg",
+    "url": "/",
+    "urlTag": "/test",
+    "colorTag": "green",
+    "comments": 0,
+    "likes": 5,
+    "text": "After all console gamers praised Dishonored and named it “Game Of The Year” Arkane Studios... "
+  },
+  {
+    "id": 4,
+    "platform": ["Comic Store"],
+    "title": "Streamer Discovered Secret Ending for Witcher 3",
+    "date": "07.06.2017",
+    "imgSrc": "Witcher-3.jpg",
+    "url": "/",
+    "urlTag": "/test",
+    "colorTag": "yellow",
+    "comments": 0,
+    "likes": 9,
+    "text": "Even year after a release Witcher 3 keeps delivering unpredictable situations. Famous streamer, Admiralbulldog found... "
+  },
+  {
+    "id": 5,
+    "platform": ["Comic Store"],
+    "title": "Assassin’s Creed: Another One Bites The Dust",
+    "date": "07.02.2017",
+    "imgSrc": "Assassin-creed.jpg",
+    "url": "/",
+    "urlTag": "/test",
+    "colorTag": "orange",
+    "comments": 0,
+    "likes": 7,
+    "text": "Another year, another mediocre game from Ubisoft. Looks like the French studio is only aiming... "
+  }
+]

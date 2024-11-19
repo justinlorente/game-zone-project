@@ -1,0 +1,16 @@
+.Newsletter {
+  &-Modal {
+    @apply bg-blue-dark-transparent h-screen w-screen top-0 absolute z-40 flex justify-center items-center;
+  }
+
+  &-form {
+    @apply flex flex-col font-roboto items-center border-solid justify-center;
+  }
+
+  &-Input {
+    @apply bg-transparent text-[12px] pb-3 border-b-[1px] border-gray-300 focus:border-black  focus:placeholder:text-black focus:transition-all focus:ease-in-out focus:duration-500 outline-none border-solid w-full;
+  }
+  .icon-container {
+    @apply pb-2;
+  }
+}

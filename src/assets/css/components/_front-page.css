@@ -1,0 +1,14 @@
+.Front-page {
+  @apply bg-no-repeat bg-cover bg-center h-[11rem] md:h-[11.6rem] xl:h-[20rem] 2xl:h-[360px] font-roboto flex flex-col justify-center items-center;
+
+  &-title {
+    @apply text-white font-bold pt-1.5 pb-6 tracking-normal text-[25px] sm:text-[28px] sm:pb-5 md:text-[32px] md:pb-6 md:pt-2 lg:text-[36px] xl:pt-[0.938rem] xl:text-[35px] xl:pb-[0.25rem] xl:tracking-[-0.6px] 2xl:pt-5 2xl:text-[38px];
+  }
+
+  &-subtitle {
+    @apply flex flex-row text-white pb-[1.5rem] text-[15px] tracking-[0.1px] items-center;
+    a {
+      @apply hover:opacity-75 duration-300 ease-in-out;
+    }
+  }
+}

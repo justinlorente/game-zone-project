@@ -1,0 +1,24 @@
+.Game-video {
+  @apply h-auto bg-blue-dark px-3;
+  .main-card {
+    @apply relative;
+    .size-full {
+      @apply font-roboto text-3xl px-3;
+    }
+    .Post-info {
+      @apply invisible md:visible px-3;
+    }
+  }
+  .size-mini {
+    @apply font-roboto text-base;
+  }
+  .card-full {
+    @apply pb-0 px-2 md:pb-10 xl:pb-4;
+  }
+  .col-card {
+    @apply col-span-2;
+    .size-mini {
+      @apply lg:text-[22px];
+    }
+  }
+}

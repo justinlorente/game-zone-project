@@ -1,0 +1,34 @@
+[
+    {  
+         "url": "/",
+        "id": "1",
+        "title": "Razer Naga Expert MMO",
+        "image": "razer-naga.jpg",
+        "lowestPrice": "65.00",
+        "highestPrice": "75.00"
+    },
+    {    
+        "url": "/",
+        "id": "2",
+        "title": "XBOX Original Gamepad",
+        "image": "xbox-gamepad.jpg",
+        "lowestPrice": "150.00",
+        "highestPrice": "170.00"
+    },
+    {   
+        "url": "/",
+        "id": "3",
+        "title": "Thrustmaster Ferrari 458",
+        "image": "thrustmaster-ferrari.jpg",
+        "lowestPrice": "180.00",
+        "highestPrice": "210.00"
+    },
+    {    
+        "url": "/",
+        "id": "4",
+        "title": "PS3 Original Gamepad",
+        "image": "ps3-gamepad.jpg",
+        "lowestPrice": "180.00",
+        "highestPrice": "210.00"
+    }
+]

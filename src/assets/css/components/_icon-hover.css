@@ -1,0 +1,21 @@
+.iconHover {
+  text-shadow: 1px 1px 3px rgb(0 0 0 / 100%), 2px 4px 7px rgb(73 64 125 / 35%);
+
+  .icon {
+    &-video {
+      @apply inset-0 z-0 flex justify-center items-center text-white h-full w-full object-cover;
+      .border {
+        @apply flex flex-row justify-center items-center bg-[rgb(28,25,44)] bg-clip-content rounded-full h-[55px] w-[55px];
+        @apply border-[6px] border-gray-200 border-opacity-20 text-[10px] text-center duration-500;
+      }
+    }
+    &-video:hover {
+      .border {
+        @apply border-opacity-50;
+      }
+    }
+    &-link {
+      @apply opacity-0 duration-500 inset-0 z-0 flex justify-center items-center text-2xl text-white font-semibold;
+    }
+  }
+}

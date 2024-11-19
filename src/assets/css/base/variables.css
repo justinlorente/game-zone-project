@@ -1,0 +1,11 @@
+* {
+  /* Colors */
+  --color-blue-dark: #1b172d;
+  --color-blue-facebook: #3c5998;
+  --color-blue-twitter: #55acee;
+  --color-green: #28ae4e;
+  --color-purple: #12101c;
+  --color-orange: #ef662c;
+  --color-white-smoke: #f6f6f6;
+  --color-blue-dark-transparent: rgba(34, 30, 50, 0.9);
+}

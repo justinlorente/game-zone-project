@@ -1,0 +1,10 @@
+.Menu-item {
+  @apply transition duration-500 ease-in-out relative inline p-[10px] md:p-[10px] lg:p-[20px] xl:p-6 cursor-pointer;
+  @apply hover:text-orange-custom;
+  .sub-menu {
+    @apply absolute top-12 left-0 h-0;
+    ul {
+      @apply bg-blue-dark py-8 text-white text-left pl-5 normal-case w-48 invisible opacity-0 transition-all ease-in duration-200;
+    }
+  }
+}

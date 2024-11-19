@@ -1,0 +1,6 @@
+.Footer {
+  @apply bg-footer-texture bg-no-repeat bg-center bg-cover grid justify-items-center h-full w-full px-16 lg:py-0 lg:pl-7 lg:pr-28 xl:px-[9.5%] 2xl:px-[20%] xl:pt-1 py-20 sm:pt-14 md:px-14 md:pt-14;
+  &-content {
+    @apply font-roboto flex flex-col place-self-auto sm:grid sm:grid-cols-2 sm:gap-0 lg:pt-14 lg:pb-20 lg:grid lg:grid-cols-4 lg:gap-0 xl:grid-cols-footer xl:gap-0 xl:pb-[7rem] xl:pt-[6rem] 2xl:gap-4 gap-7 w-full;
+  }
+}

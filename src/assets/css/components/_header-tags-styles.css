@@ -1,0 +1,5 @@
+.Header-tags-styles {
+  p {
+    @apply text-gray-500 text-[13px] tracking-[0.2px] sm:tracking-[0.1px] xl:text-[14px] xl:tracking-[0.1px] 2xl:text-[16px] 2xl:tracking-[0.2px];
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "url": "/",
+    "id": "1",
+    "title": "Paris Game Week 2017 — Trailer Witcher 3",
+    "image": "trailer-witcher.jpg",
+    "date": "08.04.2017",
+    "comments": 0,
+    "likes": 8,
+    "tagColor": "green"
+  },
+  {
+    "url": "/",
+    "id": "2",
+    "title": "Divinity: Original Sin 2 is on 50% on Sale!",
+    "image": "Divinity-original.jpg",
+    "date": "07.30.2017",
+    "comments": 0,
+    "likes": 9,
+    "tagColor": "yellow"
+  },
+  {
+    "url": "/",
+    "id": "3",
+    "title": "Secret Flying Simulator is in Development from Valve",
+    "image": "flying-simulator.jpg",
+    "date": "07.26.2017",
+    "comments": 0,
+    "likes": 8,
+    "tagColor": "yellow"
+  },
+  {
+    "url": "/",
+    "id": "4",
+    "title": "10 Rumours About Skyrim II",
+    "image": "rumors-skyrim.jpg",
+    "date": "07.22.2017",
+    "comments": 0,
+    "likes": 5,
+    "tagColor": "orange"
+  }
+]

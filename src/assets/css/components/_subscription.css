@@ -1,0 +1,13 @@
+.Socials {
+  .icon-container {
+    i {
+      @apply text-white;
+    }
+  }
+  .title {
+    @apply text-white;
+  }
+  input {
+    @apply focus:placeholder:text-white focus:border-white text-white;
+  }
+}

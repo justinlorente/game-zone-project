@@ -1,0 +1,61 @@
+.Recent-review-container {
+  @apply font-roboto;
+  @apply px-[67px] py-[35px] sm:px-[113px] sm:pb-[45px] md:px-[30px] md:pt-10 md:pb-16 lg:px-[108px] lg:pb-16 xl:px-[10%] xl:pt-[57px] xl:pb-[62px] 2xl:px-[19.2%] 2xl:pt-[72px] 2xl:pb-[78px];
+  @apply bg-[rgb(242,242,245)] h-full w-full flex flex-col;
+
+  .iconHover {
+    @apply absolute;
+    top: calc(50% - 22px);
+    left: calc(50% - 15px);
+  }
+
+  .is-video {
+    .iconHover {
+      @apply absolute;
+      top: calc(50% - 26px);
+      left: calc(50% - 26px);
+    }
+  }
+
+  .Card {
+    .info {
+      .recent-review {
+        @apply flex flex-row gap-2 font-semibold xl:gap-4 xl:pt-[0.8px];
+        .Post-info {
+          &-date {
+            @apply flex flex-row;
+            &-text {
+              @apply transition duration-500 ease-in-out hover:text-green-500 pr-1 cursor-pointer text-[11px] leading-[18px] md:pr-0 xl:leading-[21px] xl:pr-0;
+            }
+          }
+          &-comments {
+            @apply flex flex-row font-medium gap-x-1 hover:text-green-500 transition duration-500 ease-in-out md:pr-2 xl:pr-1 xl:gap-x-1;
+            &-icon {
+              @apply text-[11px] pr-[2px] sm:text-[15px] md:pr-0 xl:text-[15px] xl:leading-[22px] xl:pr-0;
+            }
+            &-text {
+              @apply text-[12px] sm:pr-[2px] md:pr-0 xl:text-[12px] xl:pr-0;
+            }
+          }
+          &-likes {
+            @apply flex flex-row font-medium gap-x-1 hover:text-green-500 transition duration-500 ease-in-out xl:gap-x-1;
+            &-icon {
+              @apply text-[17px] pr-1 sm:text-[15px] sm:pr-[2px] md:pr-0 xl:pr-[1px] xl:text-[16px] xl:leading-[18px];
+            }
+            &-text {
+              @apply text-[12px] xl:text-[12px];
+            }
+          }
+        }
+      }
+    }
+
+    &:hover {
+      .iconHover {
+        .icon-link {
+          @apply opacity-100;
+        }
+      }
+    }
+  }
+}
